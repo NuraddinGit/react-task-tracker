@@ -54,13 +54,17 @@ body {
 }
 
 .task {
-  background: #f2f8ff;
+  background: #f0f0f0;
   border: 2px solid #777;
   margin: 5px;
   padding: 10px 20px;
   cursor: pointer;
+  transition: all 0.1s ease;
 }
 
+.task:hover {
+  background: #d6dbe2;
+}
 .task.reminder {
   border-left: 5px solid green;
 }
